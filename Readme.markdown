@@ -84,13 +84,6 @@ The project follows a structured approach to predict total sales:
 
 ## How to Run
 
-### On Kaggle (Recommended)
-1. Sign up or log in to [Kaggle](https://www.kaggle.com).
-2. Create a new notebook and add the dataset with ID 108707 (search for "cinema-ticket").
-3. Copy the content of `total-sales-prediction-for-cinema-tickets.ipynb` into the new notebook.
-4. Ensure the dataset is accessible at `/kaggle/input/cinema-ticket/cinemaTicket_Ref.csv`.
-5. Run the notebook cell by cell or use the "Run All" option.
-
 ### Locally
 1. Install Python 3.7.12 from [python.org](https://www.python.org/downloads/release/python-3712/).
 2. Install the required libraries:
@@ -109,9 +102,6 @@ The project follows a structured approach to predict total sales:
 - **FileNotFoundError**: Ensure `cinemaTicket_Ref.csv` is in the correct directory or update the file path.
 - **Library Issues**: Verify all dependencies are installed.
 - **Plot Display**: Ensure `%matplotlib inline` is included for local execution.
-
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Contact
 For questions or contributions, please open an issue or submit a pull request on GitHub.
