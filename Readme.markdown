@@ -84,6 +84,8 @@ The project follows a structured approach to predict total sales:
 
 ## How to Run
 
+Change the directory path from kaggle to the actual path. 
+
 ### Locally
 1. Install Python 3.7.12 from [python.org](https://www.python.org/downloads/release/python-3712/).
 2. Install the required libraries:
